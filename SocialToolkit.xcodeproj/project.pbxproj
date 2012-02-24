@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A04A28514F7185F00D94F42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A28414F7185F00D94F42 /* UIKit.framework */; };
+		7A04A28714F7185F00D94F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A28614F7185F00D94F42 /* Foundation.framework */; };
+		7A04A28914F7185F00D94F42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A28814F7185F00D94F42 /* CoreGraphics.framework */; };
+		7A04A28F14F7185F00D94F42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A04A28D14F7185F00D94F42 /* InfoPlist.strings */; };
+		7A04A29114F7185F00D94F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04A29014F7185F00D94F42 /* main.m */; };
+		7A04A29514F7185F00D94F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04A29414F7185F00D94F42 /* AppDelegate.m */; };
+		7A04A29D14F7185F00D94F42 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A29C14F7185F00D94F42 /* SenTestingKit.framework */; };
+		7A04A29E14F7185F00D94F42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A28414F7185F00D94F42 /* UIKit.framework */; };
+		7A04A29F14F7185F00D94F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04A28614F7185F00D94F42 /* Foundation.framework */; };
+		7A04A2A714F7185F00D94F42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A04A2A514F7185F00D94F42 /* InfoPlist.strings */; };
+		7A04A2AA14F7185F00D94F42 /* SocialToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04A2A914F7185F00D94F42 /* SocialToolkitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A04A2A014F7185F00D94F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A04A27714F7185F00D94F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A04A27F14F7185F00D94F42;
+			remoteInfo = SocialToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A04A28014F7185F00D94F42 /* SocialToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A04A28414F7185F00D94F42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A04A28614F7185F00D94F42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A04A28814F7185F00D94F42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A04A28C14F7185F00D94F42 /* SocialToolkit-Info.plist */ = {isa = PBXFileReference; path = "SocialToolkit-Info.plist"; sourceTree = "<group>"; };
+		7A04A28E14F7185F00D94F42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A04A29014F7185F00D94F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A04A29214F7185F00D94F42 /* SocialToolkit-Prefix.pch */ = {isa = PBXFileReference; path = "SocialToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		7A04A29314F7185F00D94F42 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A04A29414F7185F00D94F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A04A29B14F7185F00D94F42 /* SocialToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A04A29C14F7185F00D94F42 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A04A2A414F7185F00D94F42 /* SocialToolkitTests-Info.plist */ = {isa = PBXFileReference; path = "SocialToolkitTests-Info.plist"; sourceTree = "<group>"; };
+		7A04A2A614F7185F00D94F42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A04A2A814F7185F00D94F42 /* SocialToolkitTests.h */ = {isa = PBXFileReference; path = SocialToolkitTests.h; sourceTree = "<group>"; };
+		7A04A2A914F7185F00D94F42 /* SocialToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialToolkitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A04A27D14F7185F00D94F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A28514F7185F00D94F42 /* UIKit.framework in Frameworks */,
+				7A04A28714F7185F00D94F42 /* Foundation.framework in Frameworks */,
+				7A04A28914F7185F00D94F42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A04A29714F7185F00D94F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A29D14F7185F00D94F42 /* SenTestingKit.framework in Frameworks */,
+				7A04A29E14F7185F00D94F42 /* UIKit.framework in Frameworks */,
+				7A04A29F14F7185F00D94F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A04A27514F7185F00D94F42 = {
+			isa = PBXGroup;
+			children = (
+				7A04A28A14F7185F00D94F42 /* SocialToolkit */,
+				7A04A2A214F7185F00D94F42 /* SocialToolkitTests */,
+				7A04A28314F7185F00D94F42 /* Frameworks */,
+				7A04A28114F7185F00D94F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A04A28114F7185F00D94F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A28014F7185F00D94F42 /* SocialToolkit.app */,
+				7A04A29B14F7185F00D94F42 /* SocialToolkitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A04A28314F7185F00D94F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A28414F7185F00D94F42 /* UIKit.framework */,
+				7A04A28614F7185F00D94F42 /* Foundation.framework */,
+				7A04A28814F7185F00D94F42 /* CoreGraphics.framework */,
+				7A04A29C14F7185F00D94F42 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A04A28A14F7185F00D94F42 /* SocialToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A29314F7185F00D94F42 /* AppDelegate.h */,
+				7A04A29414F7185F00D94F42 /* AppDelegate.m */,
+				7A04A28B14F7185F00D94F42 /* Supporting Files */,
+			);
+			path = SocialToolkit;
+			sourceTree = "<group>";
+		};
+		7A04A28B14F7185F00D94F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A28C14F7185F00D94F42 /* SocialToolkit-Info.plist */,
+				7A04A28D14F7185F00D94F42 /* InfoPlist.strings */,
+				7A04A29014F7185F00D94F42 /* main.m */,
+				7A04A29214F7185F00D94F42 /* SocialToolkit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A04A2A214F7185F00D94F42 /* SocialToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A2A814F7185F00D94F42 /* SocialToolkitTests.h */,
+				7A04A2A914F7185F00D94F42 /* SocialToolkitTests.m */,
+				7A04A2A314F7185F00D94F42 /* Supporting Files */,
+			);
+			path = SocialToolkitTests;
+			sourceTree = "<group>";
+		};
+		7A04A2A314F7185F00D94F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A04A2A414F7185F00D94F42 /* SocialToolkitTests-Info.plist */,
+				7A04A2A514F7185F00D94F42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A04A27F14F7185F00D94F42 /* SocialToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A04A2AD14F7185F00D94F42 /* Build configuration list for PBXNativeTarget "SocialToolkit" */;
+			buildPhases = (
+				7A04A27C14F7185F00D94F42 /* Sources */,
+				7A04A27D14F7185F00D94F42 /* Frameworks */,
+				7A04A27E14F7185F00D94F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialToolkit;
+			productName = SocialToolkit;
+			productReference = 7A04A28014F7185F00D94F42 /* SocialToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A04A29A14F7185F00D94F42 /* SocialToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A04A2B014F7185F00D94F42 /* Build configuration list for PBXNativeTarget "SocialToolkitTests" */;
+			buildPhases = (
+				7A04A29614F7185F00D94F42 /* Sources */,
+				7A04A29714F7185F00D94F42 /* Frameworks */,
+				7A04A29814F7185F00D94F42 /* Resources */,
+				7A04A29914F7185F00D94F42 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A04A2A114F7185F00D94F42 /* PBXTargetDependency */,
+			);
+			name = SocialToolkitTests;
+			productName = SocialToolkitTests;
+			productReference = 7A04A29B14F7185F00D94F42 /* SocialToolkitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A04A27714F7185F00D94F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7A04A27A14F7185F00D94F42 /* Build configuration list for PBXProject "SocialToolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A04A27514F7185F00D94F42;
+			productRefGroup = 7A04A28114F7185F00D94F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A04A27F14F7185F00D94F42 /* SocialToolkit */,
+				7A04A29A14F7185F00D94F42 /* SocialToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A04A27E14F7185F00D94F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A28F14F7185F00D94F42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A04A29814F7185F00D94F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A2A714F7185F00D94F42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A04A29914F7185F00D94F42 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A04A27C14F7185F00D94F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A29114F7185F00D94F42 /* main.m in Sources */,
+				7A04A29514F7185F00D94F42 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A04A29614F7185F00D94F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04A2AA14F7185F00D94F42 /* SocialToolkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A04A2A114F7185F00D94F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A04A27F14F7185F00D94F42 /* SocialToolkit */;
+			targetProxy = 7A04A2A014F7185F00D94F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A04A28D14F7185F00D94F42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A04A28E14F7185F00D94F42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A04A2A514F7185F00D94F42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A04A2A614F7185F00D94F42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A04A2AB14F7185F00D94F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A04A2AC14F7185F00D94F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A04A2AE14F7185F00D94F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialToolkit/SocialToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SocialToolkit/SocialToolkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A04A2AF14F7185F00D94F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialToolkit/SocialToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SocialToolkit/SocialToolkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A04A2B114F7185F00D94F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialToolkit.app/SocialToolkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialToolkit/SocialToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SocialToolkitTests/SocialToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7A04A2B214F7185F00D94F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialToolkit.app/SocialToolkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialToolkit/SocialToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SocialToolkitTests/SocialToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A04A27A14F7185F00D94F42 /* Build configuration list for PBXProject "SocialToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A04A2AB14F7185F00D94F42 /* Debug */,
+				7A04A2AC14F7185F00D94F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A04A2AD14F7185F00D94F42 /* Build configuration list for PBXNativeTarget "SocialToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A04A2AE14F7185F00D94F42 /* Debug */,
+				7A04A2AF14F7185F00D94F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A04A2B014F7185F00D94F42 /* Build configuration list for PBXNativeTarget "SocialToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A04A2B114F7185F00D94F42 /* Debug */,
+				7A04A2B214F7185F00D94F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A04A27714F7185F00D94F42 /* Project object */;
+}
