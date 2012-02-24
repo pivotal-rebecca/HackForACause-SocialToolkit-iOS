@@ -2,14 +2,16 @@
 //  AppDelegate.h
 //  SocialToolkit
 //
-//  Created by DevFloater10 on 12-02-23.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
+#import "FBConnect.h"
+#import "SampleLaunchViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    UIWindow *window_;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) Facebook *fbInstance;
 
 @end

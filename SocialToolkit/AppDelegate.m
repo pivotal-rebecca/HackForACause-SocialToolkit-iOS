@@ -2,21 +2,33 @@
 //  AppDelegate.m
 //  SocialToolkit
 //
-//  Created by DevFloater10 on 12-02-23.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "AppDelegate.h"
+#import "FBSelectFriendsViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize fbInstance;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Paste your App ID into the SocialToolkit-Info.plist for key fbAppId
+    self.fbInstance = [[Facebook alloc] initWithAppId:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"fbAppId"] andDelegate:self];
+    
+    // Single Sign On (SSO) communication
+    // https://developers.facebook.com/docs/mobile/ios/build/#implementsso
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"FBAccessTokenKey"] 
+        && [defaults objectForKey:@"FBExpirationDateKey"]) {
+        self.fbInstance.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
+        self.fbInstance.expirationDate = [defaults objectForKey:@"FBExpirationDateKey"];
+    }
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[FBSelectFriendsViewController alloc] init]];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -58,6 +70,10 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [self.fbInstance handleOpenURL:url];
 }
 
 @end
